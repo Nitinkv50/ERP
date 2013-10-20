@@ -75,6 +75,7 @@ GEM
     multi_json (1.8.2)
     mysql2 (0.3.13)
     orm_adapter (0.4.0)
+    pg (0.17.0)
     polyglot (0.3.3)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
@@ -146,6 +147,7 @@ DEPENDENCIES
   jquery-rails
   less-rails
   mysql2
+  pg
   quiet_assets
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
