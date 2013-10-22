@@ -7,8 +7,10 @@ gem 'rails', '3.2.13'
 
 
 gem 'therubyracer'
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 gem 'devise'
-gem 'pg',:group => 	"production"
+gem 'pg'#,:group => 	"production"
 
 group :development do
   gem 'quiet_assets'
@@ -26,8 +28,6 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem "less-rails"
-  gem 'twitter-bootstrap-rails'
 end
 
 gem 'jquery-rails'
